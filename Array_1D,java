@@ -1,0 +1,78 @@
+public class Array_1D {
+
+	public static void main(String[] args) {
+		  
+			 int A1[]=new int[10];
+		     for(int i=0;i<A1.length;i++)
+		     {
+		         System.out.println(A1[i]);
+		          
+		     } System.out.println( );
+
+			
+		     int A2[]={1,2,3,4,5};
+		     for(int i=0; i<A2.length;i++)
+		     {
+		         System.out.println(A2[i]);
+		     } System.out.println( );
+			
+		    
+		     int A3[]={1,2,3,4,5};
+		     A3[3]=6;
+		     for(int i=0; i<A3.length;i++)
+		     {
+		         System.out.println(A3[i]);
+		     } System.out.println( );
+			
+
+		     int A4[]={1,2,3,4,5};
+		     for(int i=A4.length-1; i>=0;i--)
+		     {
+		         System.out.println(A4[i]);
+		     } System.out.println( );
+			
+
+
+		     int A5[]={1,2,3,4,5};
+		     for(int x:A5)
+		     {
+		         System.out.println(x);
+		     } System.out.println( );
+
+
+		     int A6[]={1,2,3,4,5};
+		     for(int x:A6)
+		     {
+		         System.out.println(x++);
+		     } System.out.println( );
+
+			
+			    int A7[]={1,2,3,4,5};
+			    for (int i=0; i<A7.length; i++){
+			        System.out.println(A7[i]++);
+			    }
+			    System.out.println();
+			    
+			    for(int x:A7){
+			       System.out.println(x++); 
+			    } System.out.println( );
+				
+			
+			
+
+		     int A8[]={1,2,3,4,5};
+		         System.out.println(A8.length);
+			
+			
+
+		      int B[]={1,2,3,4,5};
+		      for(int i=0;i<B.length;i++)
+		         {
+		             System.out.println(B[i]++);
+		         } System.out.println( );
+
+		}
+
+	}
+  
+		  
